@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".nav-ls div").click(function(a){var b=$(this).index();$(this).addClass("active").siblings("div").removeClass("active"),$("div.content").eq(b).show().siblings(".content").hide()})});

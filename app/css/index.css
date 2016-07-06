@@ -1,0 +1,111 @@
+div, body, nav, ul, li, span, a, h1, h2, h3, h4, i {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1240px;
+  margin: 0 auto;
+  font-family: 'Microsoft Yahei';
+}
+
+.center {
+  text-align: center;
+}
+
+.center-block {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-box {
+  width: 402px;
+  float: left;
+}
+.nav-box .nav-top {
+  background: #f6f7f7;
+  padding-top: 80px;
+}
+
+.header {
+  width: 213px;
+  height: 213px;
+  background: red url(../img/header.jpg) no-repeat -48px -4px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 40px;
+  line-height: 42px;
+}
+
+.job {
+  font-size: 22px;
+  color: #6f6a68;
+  font-weight: bold;
+  line-height: 35px;
+  margin-top: 8px;
+}
+
+.pos {
+  background: url(../img/pos.png) 0 5px no-repeat;
+  width: 55px;
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 12px;
+}
+
+.detail {
+  height: 134px;
+  border-top: 2px solid #e9e8e8;
+  border-bottom: 2px solid #e9e8e8;
+  margin-top: 50px;
+}
+.detail div {
+  display: block;
+  height: 134px;
+  border-left: 2px solid #e9e8e8;
+  width: 132px;
+  float: left;
+}
+.detail .age {
+  border-left: none !important;
+}
+.detail h1 {
+  line-height: 40px;
+  margin-top: 32px;
+}
+
+.nav-ls div {
+  height: 84px;
+  padding-left: 40px;
+  line-height: 84px;
+  background: #fff;
+  border-bottom: 2px solid #dfdedd;
+}
+.nav-ls div:hover {
+  cursor: pointer;
+}
+.nav-ls div h1 {
+  color: #a5a19f;
+}
+.nav-ls div.active {
+  background: #f6f7f7;
+}
+.nav-ls div.active h1 {
+  color: #000 !important;
+}
+
+.content {
+  padding: 80px 60px;
+  float: left;
+  display: none;
+  width: 718px;
+}
+.content.active {
+  display: block;
+}
