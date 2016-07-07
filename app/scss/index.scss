@@ -1,6 +1,12 @@
-div, body, nav, ul, li, span, a, h1, h2, h3, h4, i{
+div, body, nav, ul, li, span, a, h1, h4, i{
 	 margin:0;
 	 padding:0;
+}
+nav{
+	display:block;
+}
+img{
+	border:none;
 }
 .container{
 	width:1240px;
@@ -25,7 +31,7 @@ div, body, nav, ul, li, span, a, h1, h2, h3, h4, i{
 .header{
 	width: 213px;
 	height: 213px;
-	background: red url(../img/header.jpg) no-repeat -48px -4px;
+	background: #f6f7f7 url(../img/header.jpg) no-repeat -48px -4px;
 	margin:0 auto;
 	border-radius:50%;
 }
@@ -70,10 +76,12 @@ div, body, nav, ul, li, span, a, h1, h2, h3, h4, i{
 	h1{
 			line-height: 40px;
 			margin-top: 32px;
+			font-size: 30px;
 	}
 }
 
 .nav-ls{
+	// display:none;
 	div{
 		&:hover{
 			cursor: pointer;
