@@ -118,3 +118,15 @@ img {
 .content.active {
   display: block;
 }
+.content .ls {
+  padding-left: 10px;
+}
+.content .ls ul {
+  padding-left: 30px;
+}
+.content .ls ul li {
+  list-style: circle;
+}
+.content .ls h3 {
+  padding-left: 20px;
+}
